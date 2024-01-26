@@ -227,7 +227,7 @@ class NmapGUI(QMainWindow):
 
     def Ai(self):
         try:
-            genai.configure(api_key='AIzaSyA_8iHG9xFashfj9Kp0-wO1og_kEfPvpxs')
+            genai.configure(api_key='*****************')
             generation_config = {
                 "temperature": 0.9,
                 "top_p": 1,
